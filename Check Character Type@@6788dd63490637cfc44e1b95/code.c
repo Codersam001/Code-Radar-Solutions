@@ -6,7 +6,7 @@ char* welcome() {
 
 int main() {
    char ch;
-   scanf("%s",&ch);
+   scanf("%c",&ch);
    if ( ch=='A'||ch=='a'||ch=='i'||ch=='I'|| ch=='o' || ch=='O' || ch=='E'|| ch=='e'||ch=='u'|| ch=='U'){
     printf("Vowel");
    }
@@ -14,7 +14,7 @@ int main() {
     printf("Consonant");
    }
    else if (ch>='1' && ch<='9'){
-    printf("Digits");
+    printf("Digit");
    }
    else {
     printf("Special Charater");
