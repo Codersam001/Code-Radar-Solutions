@@ -1,4 +1,4 @@
-#include <stdioh>
+#include <stdio.h>
 int main(){
     int num;
     scanf("%d",&num);
@@ -8,4 +8,5 @@ int main(){
     else{
         printf("Odd");
     }
+    return 0;
 }
