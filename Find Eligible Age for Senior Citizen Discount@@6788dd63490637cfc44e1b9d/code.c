@@ -8,6 +8,6 @@ int main(){
     else{
         printf("Not Eligible");
     }
-retrun 0;
+return 0;
 
 }
