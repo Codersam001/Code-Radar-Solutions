@@ -2,7 +2,7 @@
 int main(){
     int a,b;
     if(a<b){
-        printf(" %d Second",b);
+        printf("%d",b);
     }
     else if(a>b){
         printf(" %d First",a);
