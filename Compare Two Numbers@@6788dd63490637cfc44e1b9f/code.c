@@ -1,11 +1,12 @@
 #include <stdio.h>
 int main(){
     int a,b;
+    scanf("% %d ",&a,&b);
     if(a<b){
-        printf("%d",b);
+        printf("Second",b);
     }
     else if(a>b){
-        printf(" %d First",a);
+        printf("First",a);
     
     }
     else{
