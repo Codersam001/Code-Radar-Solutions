@@ -7,15 +7,15 @@ int main() {
     scanf("%d", &num);
 
     if (num <= 1) {
-        printf("%d is not a prime number.\n", num);
+        printf("Not Prime", num);
     } else {
         for (i = 2; i < num; i++) {
             if (num % i == 0) {
-                printf("%d is not a prime number.\n", num);
+                printf("Prime", num);
                 return 0; // Exit the program early if not prime
             }
         }
-        printf("%d is a prime number.\n", num);
+        printf(" Prime", num);
     }
 
     return 0;
