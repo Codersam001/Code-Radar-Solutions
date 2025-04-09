@@ -12,7 +12,7 @@ int main() {
                 return 0;
             }
         }
-        printf(" Prime", num);
+        printf("Prime", num);
     }
 
     return 0;
